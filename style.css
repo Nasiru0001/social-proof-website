@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 100%;
+}
+
+.container{
+    padding: 90px 150px;
+}
+
+
+
+.info{
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 35px;
+    width: 300px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.info p{
+    font-size: 15px;
+    width: 400px;
+    font-weight: 700px;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.ratings{
+    display: inline-block;
+    margin: 40px 0 0 150px;
+}
+
+.reviews, .guru, .best{
+    width: 330px;
+    padding: 10px; 
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 3px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.rated{
+    margin-left: 15px;
+}
+
+.name{
+    color: hsl(0, 0%, 100%);
+}
+
+.buyer{
+    color: hsl(333, 80%, 67%);
+}
+
+.guru{
+    margin: 10px 0 10px 30px;
+}
+
+.best{
+    margin-left: 60px;
+}
+
+.previews{
+    position: relative;
+}
+
+.colton,.anne, .irene{
+    width: 320px;
+    display: inline-block;
+    background-color: hsl(300, 43%, 22%);
+    padding: 32px;
+    border-radius: 5px;
+}
+
+.irene, .anne{
+    margin-left: 20px;
+}
+.irene{
+    position: relative;
+    top: 20px;
+}
+
+.anne{
+    position: relative;
+    top: 40px;
+}
+.logo-1{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.logo-1, .profile{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.profile{
+    margin-left: 15px;
+}
+
+.content{
+    font-size: 15px;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 500px) {
+
+    .container{
+        padding: 30px 50px;
+    }
+
+    h1{
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .info p{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .ratings{
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 20px;
+        width: 330px;
+        display: block;
+    }
+
+    .guru, .best{
+        margin-left: 0;
+    }
+
+    .irene, .anne{
+        margin-left: 0;
+    }
+
+    .content{
+        line-height: 1.5;
+    }
+}
